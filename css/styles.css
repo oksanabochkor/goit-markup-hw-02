@@ -1,5 +1,5 @@
 body {
-    font-family: "Robot" , sans-serif;
+    font-family: "Roboto" , sans-serif;
     color: #434455;
     background-color:#FFFFFF;
 }
@@ -54,7 +54,9 @@ font-weight: 700;
         color: #2e2f42;
         
 }
-.header-items:hover {
+.header-items:hover 
+
+ {
     color: #404bbf;
 }
 
@@ -107,6 +109,12 @@ font-weight: 700;
      
             background: #4d5ae5;
 }
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+.hero_btn:focus {
+    background-color: #404BBF;
+}
 
 
 .team {}
@@ -155,11 +163,13 @@ font-weight: 700;
 }
 
 .our-team-list {
-    background-color: #FFFFFF;
+    
 }
 
 
-.our-team-list-item {}
+.our-team-list-item {
+    background-color: #FFFFFF
+}
 
 
 .our-team-img {}
@@ -203,7 +213,7 @@ text-transform: capitalize;
 
 
 .portfolio-img {
-    width: 360px;
+  
 }
 
 
@@ -235,6 +245,15 @@ text-transform: capitalize;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4d5ae5;
+}
+
+.footer-logo-span {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
 }
 
 .foter-text { 
