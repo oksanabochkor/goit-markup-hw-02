@@ -54,15 +54,12 @@ font-weight: 700;
         color: #2e2f42;
         
 }
-.header-items:hover 
-
+.header-items:hover ,
+.header-items:focus 
  {
     color: #404bbf;
 }
 
-.header-items:focus {
-    color: #404bbf;
-}
 
 .adress {
     font-style: normal;
@@ -80,6 +77,10 @@ font-weight: 700;
         color: #434455;
 }
 
+.adres-list-item:hover ,
+.adres-list-item:focus {
+    color: #404bbf;
+}
 
 .main {}
 
@@ -106,13 +107,12 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-     
+    cursor: pointer;
             background: #4d5ae5;
 }
-.hero-btn:hover {
-    background-color: #404BBF;
-}
+.hero-btn:hover ,
 .hero_btn:focus {
+
     background-color: #404BBF;
 }
 
